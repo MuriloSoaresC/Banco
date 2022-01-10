@@ -1,9 +1,11 @@
 <?php 
 
-require_once 'Conta.php';
-require_once 'Endereco.php';
-require_once 'Titular.php';
-require_once 'Cpf.php';
+require_once 'autoload.php';
+
+use Alura\Banco\Modelo\Conta\Titular;
+use Alura\Banco\Modelo\Endereco;
+use Alura\Banco\Modelo\CPF;
+use Alura\Banco\Modelo\Conta\Conta;
 
 
 $endereco = new Endereco($cidade = 'Petrópolis', $bairro = 'Um Bairro', $rua = 'Minha Rua', $numero = '71B');
