@@ -1,12 +1,12 @@
-<?php 
+<?php
 
 namespace Alura\Banco\Modelo;
 
-trait AcessoPropiredades
+trait AcessoPropriedades
 {
     public function __get(string $nomeAtributo)
     {
-      $metodo = 'recupera' . ucfirst($nomeAtributo);
-      return $this->$metodo();  
+        $metodo = 'recupera' . ucfirst($nomeAtributo);
+        return $this->$metodo();
     }
 }

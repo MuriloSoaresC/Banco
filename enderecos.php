@@ -1,11 +1,11 @@
-<?php 
+<?php
 
 use Alura\Banco\Modelo\Endereco;
 
 require_once 'autoload.php';
 
-$umEndereco = new Endereco('Rio', 'Um Bairro', 'Uma Rua', 25);
-$enderecoDois = new Endereco('São Paulo', 'Bairro Dois', 'Rua Tal', 57);
+$umEndereco = new Endereco('Petrópolis', 'bairro Qualquer', 'Minha rua', '71B');
+$outroEndereco = new Endereco('Rio', 'Centro', 'Uma rua aí', '50');
 
 echo $umEndereco . PHP_EOL;
-echo $enderecoDois;
+echo $outroEndereco;

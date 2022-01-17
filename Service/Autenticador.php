@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Alura\Banco\Service;
 
@@ -11,7 +11,7 @@ class Autenticador
         if ($autenticavel->podeAutenticar($senha)) {
             echo "Ok. Usuário logado no sistema";
         } else {
-            echo "Senha incorreta";
+            echo "Ops. Senha incorreta.";
         }
     }
 }
